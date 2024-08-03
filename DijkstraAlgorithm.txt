@@ -1,0 +1,26 @@
+Function Documentation:
+
+Struct Edge:
+Purpose: Represents a graph edge.
+Members: int src, int dest, int weight.
+
+Class Graph:
+Purpose: Represents a graph with methods to add edges and find shortest paths.
+Data Members: int V (number of vertices), vector<vector<pair<int, int>>> adj (adjacency list).
+Member Functions:
+Graph(int V):
+Purpose: Initializes the graph with V vertices.
+Parameters: int V - Number of vertices.
+void addEdge(int u, int v, int w):
+Purpose: Adds an undirected edge between vertices u and v with weight w.
+Parameters: int u, int v, int w.
+void dijkstra(int src):
+Purpose: Computes and prints shortest paths from vertex src to all other vertices using Dijkstra's algorithm.
+Parameters: int src.
+
+Driver Program (int main()):
+Purpose: Tests the Graph class methods.
+Steps:
+Creates a graph with 9 vertices.
+Adds edges to the graph.
+Computes and prints shortest paths from vertex 0.
