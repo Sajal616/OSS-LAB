@@ -1,0 +1,29 @@
+Function Documentation for Simple Calculator Program
+
+Variable Declaration:
+Declare variables for storing two numbers, a character for the calculator usage decision, and a character for the chosen operator.
+
+User Prompt:
+Prompt the user to decide if they want to use the calculator ('Y'/'N').
+
+Decision Handling:
+If the user inputs 'n' or 'N', print a thank you message and exit.
+If the user inputs 'y' or 'Y', proceed to the next steps.
+
+Operator and Number Input:
+Prompt the user to choose an arithmetic operator (+, -, *, /).
+Prompt the user to enter two numbers.
+
+Arithmetic Operation:
+Use a switch statement to perform the selected operation:
+Addition: Add the two numbers.
+Subtraction: Subtract the second number from the first.
+Multiplication: Multiply the two numbers.
+Division: Divide the first number by the second, with a check to prevent division by zero.
+Handle invalid operator input.
+
+Invalid Initial Input Handling:
+If the initial input is not 'y'/'Y' or 'n'/'N', print an invalid input message.
+
+Exit:
+Print a thank you message and terminate the program.
